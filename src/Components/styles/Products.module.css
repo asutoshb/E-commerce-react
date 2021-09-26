@@ -1,0 +1,26 @@
+.productsLink {
+    float: left;
+    margin: 1% -15% 1% 17%;
+    display: flex;
+}
+
+.productsLink > img {
+    border-radius: 5px;
+    width: 500px;
+    height: 35vh;
+}
+
+.productsLink > img:hover {
+    transform: scale(1.1);
+}
+
+.electronicsLink > img {
+    border-radius: 5px;
+    width: 500px;
+    height: 35vh;
+    margin: 1% 33.5%;
+}
+
+.electronicsLink > img:hover {
+    transform: scale(1.1);
+}

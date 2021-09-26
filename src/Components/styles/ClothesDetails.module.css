@@ -1,0 +1,87 @@
+.clothesDetailsCard {
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  padding: 20px;
+  margin: 10px;
+}
+
+.details {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+
+.details > div:nth-child(2) {
+  margin-left: 2%;
+}
+
+.details > div:nth-child(2) > h4:nth-child(3) {
+  border: 1px solid green;
+  width: fit-content;
+  background: green;
+  color: white;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.details > div:nth-child(2) > h1:nth-child(4) {
+  margin-top: -10px;
+}
+
+.details > div:nth-child(2) > h4:nth-child(5) {
+  color: red;
+  margin-top: -15px;
+}
+
+p {
+  font-size: 20px;
+  margin: 1px;
+}
+
+.details > img:nth-child(1) {
+  height: 440px;
+  width: 420px;
+  margin-bottom: 2%;
+}
+
+span {
+  color: #0093d8;
+  margin-left: 3px;
+}
+
+.addToCart {
+  border: 1px solid #ff9f00;
+  border-radius: 5px;
+  width: 8%;
+  outline: none;
+  height: 33px;
+  padding: 7px;
+  margin-left: 5px;
+  color: white;
+  background-color: #ff9f00;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.addToCart:hover {
+  background: white;
+  color: #ff9f00;
+}
+
+.goBack {
+  text-decoration: none;
+  border: 1px solid #fb641b;
+  border-radius: 5px;
+  margin-left: 85%;
+  padding: 4px;
+  background: #fb641b;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.goBack:hover {
+  background: white;
+  color: #fb641b;
+}

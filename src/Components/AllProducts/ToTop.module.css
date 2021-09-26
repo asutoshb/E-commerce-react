@@ -1,0 +1,12 @@
+.toTop {
+    position: fixed;
+    top: 92%;
+    right: 2%;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 1%;
+    color: #ffffff;
+    background-color: #364B58;
+    z-index: 1;
+    cursor: pointer;
+}

@@ -1,0 +1,125 @@
+.banner {
+  border: 1px solid #ec280e;
+  background-color: #ec280e;
+  color: white;
+  text-align: center;
+}
+
+.navBar {
+  border: 1px solid #000000;
+  background-color: #000000;
+  padding: 1%;
+  text-align: center;
+  display: flex;
+}
+
+.navBar > div:nth-child(1) {
+  margin-right: 52%;
+}
+
+.navBar > div:nth-child(1) > a {
+  margin-left: 10%;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: cursive;
+  text-decoration: none;
+}
+
+.navBar > div:nth-child(2) {
+  margin-top: 0.8%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 17px;
+}
+
+span {
+  margin-left: -3%;
+}
+
+.navLink:hover {
+  color: #0093d8;
+}
+
+.contact {
+  margin-left: 40%;
+  text-align: left;
+}
+
+.contact > h3 {
+  margin-bottom: 2%;
+  color: #000000;
+}
+
+.contactIcons {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2%;
+  margin-left: 30%;
+  gap: 35px;
+  color: #0093d8;
+}
+.contact > p {
+  margin: 5px;
+}
+
+.faq > p {
+  text-align: left;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+}
+
+.faq > p:nth-child(odd) {
+  border: 1px solid #ffffff;
+  background: #ffffff;
+}
+
+.faq > p:nth-child(even) {
+  border: 3px solid #000000;
+  background: #ffffff;
+}
+
+.about {
+  font-size: 17px;
+  text-align: left;
+}
+
+.about > ul > li:nth-child(even) {
+  border: 1px solid #ffffff;
+  background: #ffffff;
+}
+
+.about > ul > li:nth-child(odd) {
+  border: 1px solid #ffffff;
+  background: #ffffff;
+}
+
+.about li {
+  border: 1px solid #364b58;
+  background: #364b58;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+}
+
+.carouselImage {
+  width: 100%;
+  height: 60vh;
+}
+
+.home > div:nth-child(2) {
+  margin-bottom: 5%;
+}
+
+.backProducts {
+  border: none;
+  border-radius: 3px;
+  margin: 2%;
+  padding: 7px;
+  background: #fe3269;
+  color: #ffffff;
+  cursor: pointer;
+}

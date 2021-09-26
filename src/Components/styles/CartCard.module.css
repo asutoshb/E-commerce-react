@@ -1,0 +1,115 @@
+.cartCard {
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    background: linear-gradient(145deg, #ffffff, #dddddd);
+    box-shadow:  10px 10px 20px #cbcbcb,
+             -10px -10px 20px #ffffff;
+    width: 40%;
+    margin: 5px auto;
+    display: flex;
+    gap: 10px;
+    margin-top: 2%;
+}
+
+.cartCard:hover {
+    transform: scale(1.01);
+}
+
+.cartImage {
+    padding : 7px;
+    height: 180px;
+    width : 180px;
+}
+
+.productCartCard {
+    width: 50%;
+    margin-left: 25px;
+}
+
+.productCartCard > div:nth-child(1) {
+    display: flex;
+    flex-direction: row;
+}
+.productCartCard > div:nth-child(1) > h3:nth-child(1) {
+    width: 400px
+}
+
+.productCartCard > div:nth-child(1) > h4:nth-child(2) {
+    border: 1px solid green;
+    height: 25px;
+    width: fit-content;
+    background: green;
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+    margin-right: -20%;
+}
+
+.itemPrice {
+    display: flex;
+    flex-direction: row;
+    width: 120%;
+}
+
+.itemPrice > h2 {
+    margin-left: 55%;
+    font-family: cursive;
+    color: #FF9F00;
+}
+
+.itemQuantity {
+    display: flex;
+    flex-direction: row;
+}
+
+.itemQuantity > div:nth-child(2) {
+    border: 1px solid #0083C9;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #0083C9;
+    color: white;
+    text-align: center;
+    margin-top: 2px;
+}
+
+.itemCount {
+    margin: 3px;
+    background-color: #FB641B;
+    color:white; 
+    border: 1px solid #FB641B; 
+    outline: none; 
+    cursor: pointer;
+}
+
+.buyItem {
+    margin: 3px;
+    background-color: #FF9F00;
+    color: white;
+    border: 1px solid #FF9F00;
+    outline: none;
+    padding: 5px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.removeItem {
+    margin: 3px;
+    background-color: #FB641B;
+    color: white;
+    border: 1px solid #FB641B;
+    outline: none;
+    padding: 5px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.buyItem:hover {
+    color: #FF9F00;
+    background-color: white;
+}
+
+.itemCount:hover, .removeItem:hover {
+    color: #FB641B;
+    background-color: white;
+}

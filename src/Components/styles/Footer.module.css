@@ -1,0 +1,27 @@
+.footerComponent {
+  border: 1px solid #000000;
+  background-color: #000000;
+  height: 300px;
+  color: white;
+  margin-top: 1500px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 3%;
+  margin-left: 4%;
+  font-size: 30px;
+}
+
+.someLinks {
+  display: flex;
+  font-size: 20px;
+  margin-left: 30px;
+  margin-top: 1%;
+}
+
+.desc {
+  margin-left: 40%;
+}

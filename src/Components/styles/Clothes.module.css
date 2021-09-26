@@ -1,0 +1,33 @@
+.clothesCard {
+  border: 1px solid #ff0202;
+  border-radius: 15px;
+  background-color: #f0597a;
+  color: white;
+  margin: 2% -5% 2% 12%;
+  padding: 10px;
+  width: 300px;
+  text-align: center;
+  float: left;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+}
+
+.clothesCard > h5:nth-child(2) {
+  border: 1px solid green;
+  width: fit-content;
+  background: green;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 43%;
+}
+
+.banner > img {
+  width: 100%;
+  height: 55vh;
+  margin-bottom: 5%;
+  border-bottom: 1px solid lightgrey;
+}
